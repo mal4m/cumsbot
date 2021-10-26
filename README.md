@@ -21,7 +21,7 @@ $(eval a="$(urlfetch json https://raw.githubusercontent.com/mal4m/cumsbot/main/c
 The code essentially fetches a random line separated by a `;`, one from the `cums_start` list, then another from the `cums_end` list. <br /> Be sure to exclude the `;` from the last line to prevent empty request errors.
 
 ### Userlevel:
-Set to the disired permission level for the command. The default is "Everyone", meaning anyone in the chat can use the command.
+Set to the desired permission level for the command. The default is "Everyone", meaning anyone in the chat can use the command.
 
 ### Cooldown:
 Set to however long you desire the "refractory period" to be, to avoid spamming the command in the chat.
